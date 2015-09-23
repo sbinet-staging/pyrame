@@ -1,0 +1,1 @@
+../../commands/get_ckpt_by_id.sh

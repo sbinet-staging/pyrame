@@ -1,0 +1,125 @@
+<config>
+  <name>multimeter</name>
+  <file>/opt/pyrame/cmd_multimeter.py</file>
+  <language>python</language>
+  <listen_port>MULTIMETER_PORT</listen_port>
+
+  <cmd name="getapi_ag_34401a" type="host">
+    <host>localhost</host>
+    <port>AG_34401A_PORT</port>
+  </cmd>
+  <cmd name="init_ag_34401a" type="host">
+    <host>localhost</host>
+    <port>AG_34401A_PORT</port>
+  </cmd>
+  <cmd name="deinit_ag_34401a" type="host">
+    <host>localhost</host>
+    <port>AG_34401A_PORT</port>
+  </cmd>
+  <cmd name="config_ag_34401a" type="host">
+    <host>localhost</host>
+    <port>AG_34401A_PORT</port>
+  </cmd>
+  <cmd name="inval_ag_34401a" type="host">
+    <host>localhost</host>
+    <port>AG_34401A_PORT</port>
+  </cmd>
+  <cmd name="reset_ag_34401a" type="host">
+    <host>localhost</host>
+    <port>AG_34401A_PORT</port>
+  </cmd>
+  <cmd name="get_dc_voltage_ag_34401a" type="host">
+    <host>localhost</host>
+    <port>AG_34401A_PORT</port>
+  </cmd>
+  <cmd name="get_ac_voltage_ag_34401a" type="host">
+    <host>localhost</host>
+    <port>AG_34401A_PORT</port>
+  </cmd>
+  <cmd name="get_dc_current_ag_34401a" type="host">
+    <host>localhost</host>
+    <port>AG_34401A_PORT</port>
+  </cmd>
+  <cmd name="get_ac_current_ag_34401a" type="host">
+    <host>localhost</host>
+    <port>AG_34401A_PORT</port>
+  </cmd>
+  <cmd name="get_2w_resistance_ag_34401a" type="host">
+    <host>localhost</host>
+    <port>AG_34401A_PORT</port>
+  </cmd>
+  <cmd name="get_4w_resistance_ag_34401a" type="host">
+    <host>localhost</host>
+    <port>AG_34401A_PORT</port>
+  </cmd>
+  <cmd name="get_frequency_ag_34401a" type="host">
+    <host>localhost</host>
+    <port>AG_34401A_PORT</port>
+  </cmd>
+  <cmd name="get_period_ag_34401a" type="host">
+    <host>localhost</host>
+    <port>AG_34401A_PORT</port>
+  </cmd>
+  <cmd name="free_command_ag_34401a" type="host">
+    <host>localhost</host>
+    <port>AG_34401A_PORT</port>
+  </cmd>
+  <cmd name="get_error_queue_ag_34401a" type="host">
+    <host>localhost</host>
+    <port>AG_34401A_PORT</port>
+  </cmd>
+
+  <cmd name="getapi_mm_ki_6487" type="host">
+    <host>localhost</host>
+    <port>MM_KI_6487_PORT</port>
+  </cmd>
+  <cmd name="init_mm_ki_6487" type="host">
+    <host>localhost</host>
+    <port>MM_KI_6487_PORT</port>
+  </cmd>
+  <cmd name="deinit_mm_ki_6487" type="host">
+    <host>localhost</host>
+    <port>MM_KI_6487_PORT</port>
+  </cmd>
+  <cmd name="config_mm_ki_6487" type="host">
+    <host>localhost</host>
+    <port>MM_KI_6487_PORT</port>
+  </cmd>
+  <cmd name="inval_mm_ki_6487" type="host">
+    <host>localhost</host>
+    <port>MM_KI_6487_PORT</port>
+  </cmd>
+  <cmd name="reset_mm_ki_6487" type="host">
+    <host>localhost</host>
+    <port>MM_KI_6487_PORT</port>
+  </cmd>
+  <cmd name="get_dc_current_mm_ki_6487" type="host">
+    <host>localhost</host>
+    <port>MM_KI_6487_PORT</port>
+  </cmd>
+  <cmd name="free_command_mm_ki_6487" type="host">
+    <host>localhost</host>
+    <port>MM_KI_6487_PORT</port>
+  </cmd>
+  <cmd name="get_error_queue_mm_ki_6487" type="host">
+    <host>localhost</host>
+    <port>MM_KI_6487_PORT</port>
+  </cmd>
+
+  <cmd name="getapi_multimeter" type="script"></cmd>
+  <cmd name="init_multimeter" type="script"></cmd>
+  <cmd name="deinit_multimeter" type="script"></cmd>
+  <cmd name="config_multimeter" type="script"></cmd>
+  <cmd name="inval_multimeter" type="script"></cmd>
+  <cmd name="reset_multimeter" type="script"></cmd>
+  <cmd name="get_dc_voltage_multimeter" type="script"></cmd>
+  <cmd name="get_ac_voltage_multimeter" type="script"></cmd>
+  <cmd name="get_dc_current_multimeter" type="script"></cmd>
+  <cmd name="get_ac_current_multimeter" type="script"></cmd>
+  <cmd name="get_2w_resistance_multimeter" type="script"></cmd>
+  <cmd name="get_4w_resistance_multimeter" type="script"></cmd>
+  <cmd name="get_frequency_multimeter" type="script"></cmd>
+  <cmd name="get_period_multimeter" type="script"></cmd>
+  <cmd name="free_command_multimeter" type="script"></cmd>
+  <cmd name="get_error_queue_multimeter" type="script"></cmd>
+</config>

@@ -1,0 +1,15 @@
+. /usr/local/bin/unit_test_lib.sh
+. /opt/pyrame/ports.sh
+
+clean_all
+
+echo
+echo
+echo "RAWETH TESTS"
+echo
+cmdmod /opt/pyrame/cmd_raweth.xml > server.trace 2>&1 &
+sleep 1s
+exec_n_test ./send_packet.sh "lo" "ff:ff:ff:ff:ff:ff" "0x810" "0x45,0x45,0x45,0x45,0x45,0x45,0x45,0x45,0x45,0x45,0x45,0x45,0x45,0x45,0x45,0x45,0x45"
+clean_all
+
+exit 0

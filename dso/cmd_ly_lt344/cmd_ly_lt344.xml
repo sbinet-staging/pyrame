@@ -1,0 +1,16 @@
+<config>
+  <name>ly_lt344</name>
+  <file>/opt/pyrame/cmd_ly_lt344.py</file>
+  <language>python</language>
+  <listen_port>LY_LT344_PORT</listen_port>
+  <cmd name="inject_data_acq" type="host">
+    <host>localhost</host>
+    <port>ACQ_PORT</port>
+  </cmd>
+  <cmd name="getapi_ly_lt344" type="script"></cmd>
+  <cmd name="init_ly_lt344" type="script"></cmd>
+  <cmd name="deinit_ly_lt344" type="script"></cmd>
+  <cmd name="get_data_ly_lt344" type="script"></cmd>
+  <cmd name="clear_sweep_ly_lt344" type="script"></cmd>
+  <cmd name="get_error_queue_ly_lt344" type="script"></cmd>
+</config>

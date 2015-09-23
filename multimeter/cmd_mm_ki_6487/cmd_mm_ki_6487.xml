@@ -1,0 +1,39 @@
+<config>
+  <name>mm_ki_6487</name>
+  <file>/opt/pyrame/cmd_mm_ki_6487.py</file>
+  <language>python</language>
+  <listen_port>MM_KI_6487_PORT</listen_port>
+  <cmd name="init_gpib" type="host">
+    <host>localhost</host>
+    <port>GPIB_PORT</port>
+  </cmd>
+  <cmd name="deinit_gpib" type="host">
+    <host>localhost</host>
+    <port>GPIB_PORT</port>
+  </cmd>
+  <cmd name="config_gpib" type="host">
+    <host>localhost</host>
+    <port>GPIB_PORT</port>
+  </cmd>
+  <cmd name="inval_gpib" type="host">
+    <host>localhost</host>
+    <port>GPIB_PORT</port>
+  </cmd>
+  <cmd name="write_gpib" type="host">
+    <host>localhost</host>
+    <port>GPIB_PORT</port>
+  </cmd>
+  <cmd name="wrnrd_until_gpib" type="host">
+    <host>localhost</host>
+    <port>GPIB_PORT</port>
+  </cmd>
+  <cmd name="getapi_mm_ki_6487" type="script"></cmd>
+  <cmd name="init_mm_ki_6487" type="script"></cmd>
+  <cmd name="deinit_mm_ki_6487" type="script"></cmd>
+  <cmd name="config_mm_ki_6487" type="script"></cmd>
+  <cmd name="inval_mm_ki_6487" type="script"></cmd>
+  <cmd name="reset_mm_ki_6487" type="script"></cmd>
+  <cmd name="free_command_mm_ki_6487" type="script"></cmd>
+  <cmd name="get_dc_current_mm_ki_6487" type="script"></cmd>
+  <cmd name="get_error_queue_mm_ki_6487" type="script"></cmd>
+</config>

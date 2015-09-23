@@ -1,0 +1,45 @@
+<config>
+  <name>ki_6487</name>
+  <file>/opt/pyrame/cmd_ki_6487.py</file>
+  <language>python</language>
+  <listen_port>KI_6487_PORT</listen_port>
+  <cmd name="init_gpib" type="host">
+    <host>localhost</host>
+    <port>GPIB_PORT</port>
+  </cmd>
+  <cmd name="deinit_gpib" type="host">
+    <host>localhost</host>
+    <port>GPIB_PORT</port>
+  </cmd>
+  <cmd name="config_gpib" type="host">
+    <host>localhost</host>
+    <port>GPIB_PORT</port>
+  </cmd>
+  <cmd name="inval_gpib" type="host">
+    <host>localhost</host>
+    <port>GPIB_PORT</port>
+  </cmd>
+  <cmd name="write_gpib" type="host">
+    <host>localhost</host>
+    <port>GPIB_PORT</port>
+  </cmd>
+  <cmd name="wrnrd_until_gpib" type="host">
+    <host>localhost</host>
+    <port>GPIB_PORT</port>
+  </cmd>
+  <cmd name="getapi_ki_6487" type="script"></cmd>
+  <cmd name="init_ki_6487" type="script"></cmd>
+  <cmd name="deinit_ki_6487" type="script"></cmd>
+  <cmd name="config_ki_6487" type="script"></cmd>
+  <cmd name="inval_ki_6487" type="script"></cmd>
+  <cmd name="reset_ki_6487" type="script"></cmd>
+  <cmd name="power_on_ki_6487" type="script"></cmd>
+  <cmd name="power_off_ki_6487" type="script"></cmd>
+  <cmd name="free_command_ki_6487" type="script"></cmd>
+  <cmd name="set_voltage_ki_6487" type="script"></cmd>
+  <cmd name="set_voltage_limit_ki_6487" type="script"></cmd>
+  <cmd name="set_current_limit_ki_6487" type="script"></cmd>
+  <cmd name="get_voltage_ki_6487" type="script"></cmd>
+  <cmd name="get_current_ki_6487" type="script"></cmd>
+  <cmd name="get_error_queue_ki_6487" type="script"></cmd>
+</config>

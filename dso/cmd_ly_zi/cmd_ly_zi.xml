@@ -1,0 +1,18 @@
+<config>
+  <name>ly_zi</name>
+  <file>/opt/pyrame/cmd_ly_zi.py</file>
+  <language>python</language>
+  <listen_port>LY_ZI_PORT</listen_port>
+  <cmd name="inject_data_acq" type="host">
+    <host>localhost</host>
+    <port>ACQ_PORT</port>
+  </cmd>
+  <cmd name="getapi_ly_zi" type="script"></cmd>
+  <cmd name="init_ly_zi" type="script"></cmd>
+  <cmd name="deinit_ly_zi" type="script"></cmd>
+  <cmd name="get_data_ly_zi" type="script"></cmd>
+  <cmd name="clear_sweep_ly_zi" type="script"></cmd>
+  <cmd name="set_v_offset_ly_zi" type="script"></cmd>
+  <cmd name="set_v_div_ly_zi" type="script"></cmd>
+  <cmd name="get_error_queue_ly_zi" type="script"></cmd>
+</config>

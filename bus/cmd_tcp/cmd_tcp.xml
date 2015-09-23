@@ -1,0 +1,22 @@
+<config>
+  <name>tcp</name>
+  <file>/opt/pyrame/cmd_tcp.py</file>
+  <language>python</language>
+  <listen_port>TCP_PORT</listen_port>
+  <cmd name="getapi_tcp" type="script"></cmd>
+  <cmd name="init_tcp" type="script"></cmd>
+  <cmd name="deinit_tcp" type="script"></cmd>
+  <cmd name="config_tcp" type="script"></cmd>
+  <cmd name="inval_tcp" type="script"></cmd>
+  <cmd name="write_tcp" type="script"></cmd>
+  <cmd name="write_bin_tcp" type="script"></cmd>
+  <cmd name="read_tcp" type="script"></cmd>
+  <cmd name="read_bin_tcp" type="script"></cmd>
+  <cmd name="read_until_tcp" type="script"></cmd>
+  <cmd name="read_bin_until_tcp" type="script"></cmd>
+  <cmd name="wrnrd_tcp" type="script"></cmd>
+  <cmd name="wrnrd_bin_tcp" type="script"></cmd>
+  <cmd name="wrnrd_until_tcp" type="script"></cmd>
+  <cmd name="wrnrd_bin_until_tcp" type="script"></cmd>
+  <cmd name="expect_tcp" type="script"></cmd>
+</config>

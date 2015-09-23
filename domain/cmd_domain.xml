@@ -1,0 +1,15 @@
+<config>
+  <name>domain</name>
+  <file>/opt/pyrame/cmd_domain.py</file>
+  <language>python</language>
+  <listen_port>DOMAIN_PORT</listen_port>
+  <cmd name="set_param_cmod" type="host">
+    <host>localhost</host>
+    <port>CMOD_PORT</port>
+  </cmd>
+  <cmd name="new_device_cmod" type="host">
+    <host>localhost</host>
+    <port>CMOD_PORT</port>
+  </cmd>
+  <cmd name="init_domain" type="script"></cmd>
+</config>

@@ -1,0 +1,10 @@
+<config>
+  <name>operator</name>
+  <file>/opt/pyrame/cmd_operator.py</file>
+  <language>python</language>
+  <listen_port>OPERATOR_PORT</listen_port>
+  <cmd name="notify_operator" type="script"></cmd>
+  <cmd name="notify_ok_operator" type="script"></cmd>
+  <cmd name="ask_operator" type="script"></cmd>
+  <cmd name="ask_wimg_operator" type="script"></cmd>
+</config>

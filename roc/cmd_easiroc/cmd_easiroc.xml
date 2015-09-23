@@ -1,0 +1,36 @@
+<config>
+  <name>easiroc</name>
+  <file>/opt/pyrame/cmd_easiroc.py</file>
+  <language>python</language>
+  <listen_port>EASIROC_PORT</listen_port>
+
+  <cmd name="set_param_cmod" type="host">
+    <host>localhost</host>
+    <port>CMOD_PORT</port>
+  </cmd>
+  <cmd name="new_device_cmod" type="host">
+    <host>localhost</host>
+    <port>CMOD_PORT</port>
+  </cmd>
+
+  <!--    INTERNAL FUNCTIONS         -->
+  <cmd name="init_easiroc" type="script"></cmd>
+  <cmd name="deinit_easiroc" type="script"></cmd>
+  <cmd name="set_d_output_easiroc" type="script"></cmd>
+  <cmd name="set_dac_code_easiroc" type="script"></cmd>
+  <cmd name="set_hg_tau_easiroc" type="script"></cmd>
+  <cmd name="set_lg_tau_easiroc" type="script"></cmd>
+  <cmd name="set_hg_comp_capa_easiroc" type="script"></cmd>
+  <cmd name="set_hg_fb_capa_easiroc" type="script"></cmd>
+  <cmd name="set_lg_comp_capa_easiroc" type="script"></cmd>
+  <cmd name="set_lg_fb_capa_easiroc" type="script"></cmd>
+  <cmd name="set_lg_preamp_bias_easiroc" type="script"></cmd>
+  <cmd name="set_dac_data_chans_easiroc" type="script"></cmd>
+  <cmd name="enable_dac_data_chans_easiroc" type="script"></cmd>
+  <cmd name="disable_dac_data_chans_easiroc" type="script"></cmd>
+  <cmd name="config_easiroc" type="script"></cmd>
+  <cmd name="dump_sc_easiroc" type="script"></cmd>
+  <cmd name="set_missing_easiroc" type="script"></cmd>
+  <cmd name="explain_sc_easiroc" type="script"></cmd>
+
+</config>

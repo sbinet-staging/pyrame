@@ -1,0 +1,61 @@
+<config>
+  <name>ca_sy527</name>
+  <file>/opt/pyrame/cmd_ca_sy527.py</file>
+  <language>python</language>
+  <listen_port>CA_SY527_PORT</listen_port>
+  <cmd name="init_serial" type="host">
+    <host>localhost</host>
+    <port>SERIAL_PORT</port>
+  </cmd>
+  <cmd name="deinit_serial" type="host">
+    <host>localhost</host>
+    <port>SERIAL_PORT</port>
+  </cmd>
+  <cmd name="setattr_serial" type="host">
+    <host>localhost</host>
+    <port>SERIAL_PORT</port>
+  </cmd>
+  <cmd name="write_serial" type="host">
+    <host>localhost</host>
+    <port>SERIAL_PORT</port>
+  </cmd>
+  <cmd name="read_serial" type="host">
+    <host>localhost</host>
+    <port>SERIAL_PORT</port>
+  </cmd>
+  <cmd name="expect_serial" type="host">
+    <host>localhost</host>
+    <port>SERIAL_PORT</port>
+  </cmd>
+  <cmd name="init_tcp" type="host">
+    <host>localhost</host>
+    <port>TCP_PORT</port>
+  </cmd>
+  <cmd name="deinit_tcp" type="host">
+    <host>localhost</host>
+    <port>TCP_PORT</port>
+  </cmd>
+  <cmd name="write_tcp" type="host">
+    <host>localhost</host>
+    <port>TCP_PORT</port>
+  </cmd>
+  <cmd name="read_tcp" type="host">
+    <host>localhost</host>
+    <port>TCP_PORT</port>
+  </cmd>
+  <cmd name="expect_tcp" type="host">
+    <host>localhost</host>
+    <port>TCP_PORT</port>
+  </cmd>
+  <cmd name="getapi_ca_sy527" type="script"></cmd>
+  <cmd name="init_ca_sy527" type="script"></cmd>
+  <cmd name="deinit_ca_sy527" type="script"></cmd>
+  <cmd name="power_on_ca_sy527" type="script"></cmd>
+  <cmd name="power_off_ca_sy527" type="script"></cmd>
+  <cmd name="set_voltage_ca_sy527" type="script"></cmd>
+  <cmd name="set_current_ca_sy527" type="script"></cmd>
+  <cmd name="get_voltage_ca_sy527" type="script"></cmd>
+  <cmd name="get_current_ca_sy527" type="script"></cmd>
+  <cmd name="set_voltage_limit_ca_sy527" type="script"></cmd>
+  <cmd name="set_current_limit_ca_sy527" type="script"></cmd>
+</config>

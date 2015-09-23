@@ -1,0 +1,47 @@
+<config>
+  <name>ag_n6700b</name>
+  <file>/opt/pyrame/cmd_ag_n6700b.py</file>
+  <language>python</language>
+  <listen_port>AG_N6700B_PORT</listen_port>
+  <cmd name="init_tcp" type="host">
+    <host>localhost</host>
+    <port>TCP_PORT</port>
+  </cmd>
+  <cmd name="deinit_tcp" type="host">
+    <host>localhost</host>
+    <port>TCP_PORT</port>
+  </cmd>
+  <cmd name="config_tcp" type="host">
+    <host>localhost</host>
+    <port>TCP_PORT</port>
+  </cmd>
+  <cmd name="inval_tcp" type="host">
+    <host>localhost</host>
+    <port>TCP_PORT</port>
+  </cmd>
+  <cmd name="write_tcp" type="host">
+    <host>localhost</host>
+    <port>TCP_PORT</port>
+  </cmd>
+  <cmd name="wrnrd_until_tcp" type="host">
+    <host>localhost</host>
+    <port>TCP_PORT</port>
+  </cmd>
+  <cmd name="getapi_ag_n6700b" type="script"></cmd>
+  <cmd name="init_ag_n6700b" type="script"></cmd>
+  <cmd name="deinit_ag_n6700b" type="script"></cmd>
+  <cmd name="config_ag_n6700b" type="script"></cmd>
+  <cmd name="reset_ag_n6700b" type="script"></cmd>
+  <cmd name="inval_ag_n6700b" type="script"></cmd>
+  <cmd name="power_on_ag_n6700b" type="script"></cmd>
+  <cmd name="power_off_ag_n6700b" type="script"></cmd>
+  <cmd name="set_voltage_ag_n6700b" type="script"></cmd>
+  <cmd name="set_current_ag_n6700b" type="script"></cmd>
+  <cmd name="set_voltage_limit_ag_n6700b" type="script"></cmd>
+  <cmd name="set_current_limit_ag_n6700b" type="script"></cmd>
+  <cmd name="get_voltage_ag_n6700b" type="script"></cmd>
+  <cmd name="get_current_ag_n6700b" type="script"></cmd>
+  <cmd name="set_rise_delay_ag_n6700b" type="script"></cmd>
+  <cmd name="free_command_ag_n6700b" type="script"></cmd>
+  <cmd name="get_error_queue_ag_n6700b" type="script"></cmd>
+</config>

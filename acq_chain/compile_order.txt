@@ -1,0 +1,1 @@
+acq_server acq_plugins uncap_plugins

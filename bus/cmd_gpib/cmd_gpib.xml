@@ -1,0 +1,86 @@
+<config>
+  <name>gpib</name>
+  <file>/opt/pyrame/cmd_gpib.py</file>
+  <language>python</language>
+  <listen_port>GPIB_PORT</listen_port>
+  <cmd name="init_serial" type="host">
+    <host>localhost</host>
+    <port>SERIAL_PORT</port>
+  </cmd>
+  <cmd name="deinit_serial" type="host">
+    <host>localhost</host>
+    <port>SERIAL_PORT</port>
+  </cmd>
+  <cmd name="config_serial" type="host">
+    <host>localhost</host>
+    <port>SERIAL_PORT</port>
+  </cmd>
+  <cmd name="inval_serial" type="host">
+    <host>localhost</host>
+    <port>SERIAL_PORT</port>
+  </cmd>
+  <cmd name="write_serial" type="host">
+    <host>localhost</host>
+    <port>SERIAL_PORT</port>
+  </cmd>
+  <cmd name="read_serial" type="host">
+    <host>localhost</host>
+    <port>SERIAL_PORT</port>
+  </cmd>
+  <cmd name="read_until_serial" type="host">
+    <host>localhost</host>
+    <port>SERIAL_PORT</port>
+  </cmd>
+  <cmd name="wrnrd_serial" type="host">
+    <host>localhost</host>
+    <port>SERIAL_PORT</port>
+  </cmd>
+  <cmd name="wrnrd_until_serial" type="host">
+    <host>localhost</host>
+    <port>SERIAL_PORT</port>
+  </cmd>
+  <cmd name="expect_serial" type="host">
+    <host>localhost</host>
+    <port>SERIAL_PORT</port>
+  </cmd>
+  <cmd name="init_tcp" type="host">
+    <host>localhost</host>
+    <port>TCP_PORT</port>
+  </cmd>
+  <cmd name="deinit_tcp" type="host">
+    <host>localhost</host>
+    <port>TCP_PORT</port>
+  </cmd>
+  <cmd name="config_tcp" type="host">
+    <host>localhost</host>
+    <port>TCP_PORT</port>
+  </cmd>
+  <cmd name="inval_tcp" type="host">
+    <host>localhost</host>
+    <port>TCP_PORT</port>
+  </cmd>
+  <cmd name="write_tcp" type="host">
+    <host>localhost</host>
+    <port>TCP_PORT</port>
+  </cmd>
+  <cmd name="read_until_tcp" type="host">
+    <host>localhost</host>
+    <port>TCP_PORT</port>
+  </cmd>
+  <cmd name="wrnrd_until_tcp" type="host">
+    <host>localhost</host>
+    <port>TCP_PORT</port>
+  </cmd>
+  <cmd name="expect_tcp" type="host">
+    <host>localhost</host>
+    <port>TCP_PORT</port>
+  </cmd>
+  <cmd name="getapi_gpib" type="script"></cmd>
+  <cmd name="init_gpib" type="script"></cmd>
+  <cmd name="deinit_gpib" type="script"></cmd>
+  <cmd name="config_gpib" type="script"></cmd>
+  <cmd name="inval_gpib" type="script"></cmd>
+  <cmd name="write_gpib" type="script"></cmd>
+  <cmd name="wrnrd_until_gpib" type="script"></cmd>
+  <cmd name="expect_gpib" type="script"></cmd>
+</config>

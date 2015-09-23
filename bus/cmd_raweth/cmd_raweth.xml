@@ -1,0 +1,7 @@
+<config>
+  <name>raweth</name>
+  <language>c</language>
+  <file>/opt/pyrame/cmd_raweth.so</file>
+  <listen_port>RAWETH_PORT</listen_port>
+  <cmd name="send_packet_raweth" type="script"></cmd>
+</config>

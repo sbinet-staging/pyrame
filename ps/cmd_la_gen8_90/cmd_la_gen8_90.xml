@@ -1,0 +1,46 @@
+<config>
+  <name>la_gen8_90</name>
+  <file>/opt/pyrame/cmd_la_gen8_90.py</file>
+  <language>python</language>
+  <listen_port>LA_GEN8_90_PORT</listen_port>
+  <cmd name="init_gpib" type="host">
+    <host>localhost</host>
+    <port>GPIB_PORT</port>
+  </cmd>
+  <cmd name="deinit_gpib" type="host">
+    <host>localhost</host>
+    <port>GPIB_PORT</port>
+  </cmd>
+  <cmd name="config_gpib" type="host">
+    <host>localhost</host>
+    <port>GPIB_PORT</port>
+  </cmd>
+  <cmd name="inval_gpib" type="host">
+    <host>localhost</host>
+    <port>GPIB_PORT</port>
+  </cmd>
+  <cmd name="write_gpib" type="host">
+    <host>localhost</host>
+    <port>GPIB_PORT</port>
+  </cmd>
+  <cmd name="wrnrd_until_gpib" type="host">
+    <host>localhost</host>
+    <port>GPIB_PORT</port>
+  </cmd>
+  <cmd name="getapi_la_gen8_90" type="script"></cmd>
+  <cmd name="init_la_gen8_90" type="script"></cmd>
+  <cmd name="deinit_la_gen8_90" type="script"></cmd>
+  <cmd name="config_la_gen8_90" type="script"></cmd>
+  <cmd name="inval_la_gen8_90" type="script"></cmd>
+  <cmd name="reset_la_gen8_90" type="script"></cmd>
+  <cmd name="power_on_la_gen8_90" type="script"></cmd>
+  <cmd name="power_off_la_gen8_90" type="script"></cmd>
+  <cmd name="set_voltage_la_gen8_90" type="script"></cmd>
+  <cmd name="set_current_la_gen8_90" type="script"></cmd>
+  <cmd name="set_voltage_limit_la_gen8_90" type="script"></cmd>
+  <cmd name="set_current_limit_la_gen8_90" type="script"></cmd>
+  <cmd name="get_voltage_la_gen8_90" type="script"></cmd>
+  <cmd name="get_current_la_gen8_90" type="script"></cmd>
+  <cmd name="free_command_la_gen8_90" type="script"></cmd>
+  <cmd name="get_error_queue_la_gen8_90" type="script"></cmd>
+</config>

@@ -1,0 +1,84 @@
+<config>
+  <name>motion</name>
+  <file>/opt/pyrame/cmd_motion.py</file>
+  <language>python</language>
+  <listen_port>MOTION_PORT</listen_port>
+  
+  <cmd name="init_motion" type="script"></cmd>
+  <cmd name="deinit_motion" type="script"></cmd>
+  <cmd name="config_motion" type="script"></cmd>
+  <cmd name="inval_motion" type="script"></cmd>
+  <cmd name="reset_motion" type="script"></cmd>
+  <cmd name="is_reset_motion" type="script"></cmd>
+  <cmd name="set_origin_motion" type="script"></cmd>
+  <cmd name="move_motion" type="script"></cmd>
+  <cmd name="get_pos_motion" type="script"></cmd>
+  <cmd name="get_limits_motion" type="script"></cmd>
+
+  <cmd name="init_th_apt" type="host">
+    <host>localhost</host>
+    <port>TH_APT_PORT</port>
+  </cmd>
+  <cmd name="deinit_th_apt" type="host">
+    <host>localhost</host>
+    <port>TH_APT_PORT</port>
+  </cmd>
+  <cmd name="config_th_apt" type="host">
+    <host>localhost</host>
+    <port>TH_APT_PORT</port>
+  </cmd>
+  <cmd name="inval_th_apt" type="host">
+    <host>localhost</host>
+    <port>TH_APT_PORT</port>
+  </cmd>
+  <cmd name="reset_th_apt" type="host">
+    <host>localhost</host>
+    <port>TH_APT_PORT</port>  
+  </cmd>
+  <cmd name="is_reset_th_apt" type="host">
+    <host>localhost</host>
+    <port>TH_APT_PORT</port>  
+  </cmd>
+  <cmd name="move_th_apt" type="host">
+    <host>localhost</host>
+    <port>TH_APT_PORT</port>    
+  </cmd>
+  <cmd name="get_pos_th_apt" type="host">
+    <host>localhost</host>
+    <port>TH_APT_PORT</port>    
+  </cmd>
+ 
+  <cmd name="init_nw_esp301" type="host">
+    <host>localhost</host>
+    <port>NW_ESP301_PORT</port>
+  </cmd>
+  <cmd name="deinit_nw_esp301" type="host">
+    <host>localhost</host>
+    <port>NW_ESP301_PORT</port>
+  </cmd>
+  <cmd name="config_nw_esp301" type="host">
+    <host>localhost</host>
+    <port>NW_ESP301_PORT</port>
+  </cmd>
+  <cmd name="inval_nw_esp301" type="host">
+    <host>localhost</host>
+    <port>NW_ESP301_PORT</port>
+  </cmd>
+  <cmd name="reset_nw_esp301" type="host">
+    <host>localhost</host>
+    <port>NW_ESP301_PORT</port>  
+  </cmd>
+  <cmd name="is_reset_nw_esp301" type="host">
+    <host>localhost</host>
+    <port>NW_ESP301_PORT</port>  
+  </cmd>
+  <cmd name="move_nw_esp301" type="host">
+    <host>localhost</host>
+    <port>NW_ESP301_PORT</port>    
+  </cmd>
+  <cmd name="get_pos_nw_esp301" type="host">
+    <host>localhost</host>
+    <port>NW_ESP301_PORT</port>    
+  </cmd>
+ 
+</config>

@@ -1,0 +1,1 @@
+../../commands/getstats.sh

@@ -1,0 +1,74 @@
+<config>
+  <name>th_apt</name>
+  <file>/opt/pyrame/cmd_th_apt.py</file>
+  <language>python</language>
+  <listen_port>TH_APT_PORT</listen_port>
+  <cmd name="init_serial" type="host">
+    <host>localhost</host>
+    <port>SERIAL_PORT</port>
+  </cmd>
+  <cmd name="deinit_serial" type="host">
+    <host>localhost</host>
+    <port>SERIAL_PORT</port>
+  </cmd>
+  <cmd name="config_serial" type="host">
+    <host>localhost</host>
+    <port>SERIAL_PORT</port>
+  </cmd>
+  <cmd name="inval_serial" type="host">
+    <host>localhost</host>
+    <port>SERIAL_PORT</port>
+  </cmd>
+  <cmd name="write_bin_serial" type="host">
+    <host>localhost</host>
+    <port>SERIAL_PORT</port>
+  </cmd>
+  <cmd name="wrnrd_bin_serial" type="host">
+    <host>localhost</host>
+    <port>SERIAL_PORT</port>
+  </cmd>
+  <cmd name="read_bin_serial" type="host">
+    <host>localhost</host>
+    <port>SERIAL_PORT</port>
+  </cmd>
+  <cmd name="init_tcp" type="host">
+    <host>localhost</host>
+    <port>TCP_PORT</port>
+  </cmd>
+  <cmd name="deinit_tcp" type="host">
+    <host>localhost</host>
+    <port>TCP_PORT</port>
+  </cmd>
+  <cmd name="config_tcp" type="host">
+    <host>localhost</host>
+    <port>TCP_PORT</port>
+  </cmd>
+  <cmd name="inval_tcp" type="host">
+    <host>localhost</host>
+    <port>TCP_PORT</port>
+  </cmd>
+  <cmd name="write_bin_tcp" type="host">
+    <host>localhost</host>
+    <port>TCP_PORT</port>
+  </cmd>
+  <cmd name="wrnrd_bin_tcp" type="host">
+    <host>localhost</host>
+    <port>TCP_PORT</port>
+  </cmd>
+  <cmd name="read_bin_tcp" type="host">
+    <host>localhost</host>
+    <port>TCP_PORT</port>
+  </cmd>
+  <cmd name="getapi_th_apt" type="script"></cmd>
+  <cmd name="init_th_apt" type="script"></cmd>
+  <cmd name="deinit_th_apt" type="script"></cmd>
+  <cmd name="config_th_apt" type="script"></cmd>
+  <cmd name="inval_th_apt" type="script"></cmd>
+  <cmd name="reset_th_apt" type="script"></cmd>
+  <cmd name="is_reset_th_apt" type="script"></cmd>
+  <cmd name="move_th_apt" type="script"></cmd>
+  <cmd name="get_pos_th_apt" type="script"></cmd>
+  <cmd name="go_min_th_apt" type="script"></cmd>
+  <cmd name="go_max_th_apt" type="script"></cmd>
+  <!--cmd name="get_error_queue_th_apt" type="script"></cmd-->
+</config>

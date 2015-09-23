@@ -1,0 +1,39 @@
+<config>
+  <name>sg_wl350</name>
+  <file>/opt/pyrame/cmd_sg_wl350.py</file>
+  <language>python</language>
+  <listen_port>SG_WL350_PORT</listen_port>
+  <cmd name="init_gpib" type="host">
+    <host>localhost</host>
+    <port>GPIB_PORT</port>
+  </cmd>
+  <cmd name="deinit_gpib" type="host">
+    <host>localhost</host>
+    <port>GPIB_PORT</port>
+  </cmd>
+  <cmd name="config_gpib" type="host">
+    <host>localhost</host>
+    <port>GPIB_PORT</port>
+  </cmd>
+  <cmd name="inval_gpib" type="host">
+    <host>localhost</host>
+    <port>GPIB_PORT</port>
+  </cmd>
+  <cmd name="write_gpib" type="host">
+    <host>localhost</host>
+    <port>GPIB_PORT</port>
+  </cmd>
+  <cmd name="wrnrd_gpib" type="host">
+    <host>localhost</host>
+    <port>GPIB_PORT</port>
+  </cmd>
+  <cmd name="getapi_sg_wl350" type="script"></cmd>
+  <cmd name="init_sg_wl350" type="script"></cmd>
+  <cmd name="deinit_sg_wl350" type="script"></cmd>
+  <cmd name="config_sg_wl350" type="script"></cmd>
+  <cmd name="inval_sg_wl350" type="script"></cmd>
+  <cmd name="next_sg_wl350" type="script"></cmd>
+  <cmd name="get_pos_sg_wl350" type="script"></cmd>
+  <cmd name="go_first_point_sg_wl350" type="script"></cmd>
+  <cmd name="is_last_point_sg_wl350" type="script"></cmd>
+</config>

@@ -1,0 +1,16 @@
+Thu, 11 Sep 2014 17:24:33 +0200
+
+Test by sending UDP packets of different size with a Python script at its maximum speed (no delay between packets).
+
+packet  Data rate
+size    (Gbps)
+(bytes)
+50000   1.113861084
+
+8992    1.710296631
+
+9000    1.328643799
+
+1500    0.484205782
+
+

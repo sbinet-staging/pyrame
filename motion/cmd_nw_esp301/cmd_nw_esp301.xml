@@ -1,0 +1,70 @@
+<config>
+  <name>nw_esp301</name>
+  <file>/opt/pyrame/cmd_nw_esp301.py</file>
+  <language>python</language>
+  <listen_port>NW_ESP301_PORT</listen_port>
+  <cmd name="init_serial" type="host">
+    <host>localhost</host>
+    <port>SERIAL_PORT</port>
+  </cmd>
+  <cmd name="deinit_serial" type="host">
+    <host>localhost</host>
+    <port>SERIAL_PORT</port>
+  </cmd>
+  <cmd name="config_serial" type="host">
+    <host>localhost</host>
+    <port>SERIAL_PORT</port>
+  </cmd>
+  <cmd name="inval_serial" type="host">
+    <host>localhost</host>
+    <port>SERIAL_PORT</port>
+  </cmd>
+  <cmd name="write_serial" type="host">
+    <host>localhost</host>
+    <port>SERIAL_PORT</port>
+  </cmd>
+  <cmd name="wrnrd_until_serial" type="host">
+    <host>localhost</host>
+    <port>SERIAL_PORT</port>
+  </cmd>
+  <cmd name="init_tcp" type="host">
+    <host>localhost</host>
+    <port>TCP_PORT</port>
+  </cmd>
+  <cmd name="deinit_tcp" type="host">
+    <host>localhost</host>
+    <port>TCP_PORT</port>
+  </cmd>
+  <cmd name="config_tcp" type="host">
+    <host>localhost</host>
+    <port>TCP_PORT</port>
+  </cmd>
+  <cmd name="inval_tcp" type="host">
+    <host>localhost</host>
+    <port>TCP_PORT</port>
+  </cmd>
+  <cmd name="write_tcp" type="host">
+    <host>localhost</host>
+    <port>TCP_PORT</port>
+  </cmd>
+  <cmd name="wrnrd_until_tcp" type="host">
+    <host>localhost</host>
+    <port>TCP_PORT</port>
+  </cmd>
+  <cmd name="read_tcp" type="host">
+    <host>localhost</host>
+    <port>TCP_PORT</port>
+  </cmd>
+  <cmd name="getapi_nw_esp301" type="script"></cmd>
+  <cmd name="init_nw_esp301" type="script"></cmd>
+  <cmd name="deinit_nw_esp301" type="script"></cmd>
+  <cmd name="config_nw_esp301" type="script"></cmd>
+  <cmd name="inval_nw_esp301" type="script"></cmd>
+  <cmd name="reset_nw_esp301" type="script"></cmd>
+  <cmd name="reset_controller_nw_esp301" type="script"></cmd>
+  <cmd name="go_min_nw_esp301" type="script"></cmd>
+  <cmd name="go_max_nw_esp301" type="script"></cmd>
+  <cmd name="move_nw_esp301" type="script"></cmd>
+  <cmd name="get_pos_nw_esp301" type="script"></cmd>
+  <cmd name="get_error_queue_nw_esp301" type="script"></cmd>
+</config>

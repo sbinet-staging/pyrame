@@ -1,0 +1,33 @@
+<config>
+  <name>skiroc</name>
+  <file>/opt/pyrame/cmd_skiroc.py</file>
+  <language>python</language>
+  <listen_port>SKIROC_PORT</listen_port>
+
+  <!--    INTERNAL FUNCTIONS         -->
+  <cmd name="init_skiroc" type="script"></cmd>
+  <cmd name="deinit_skiroc" type="script"></cmd>
+  <cmd name="config_skiroc" type="script"></cmd>
+  <cmd name="dump_sc_skiroc" type="script"></cmd>
+  <cmd name="set_missing_skiroc" type="script"></cmd>
+  <cmd name="explain_sc_skiroc" type="script"></cmd>
+  <cmd name="set_chipid_param_skiroc" type="script"></cmd>
+  <cmd name="get_chipid_skiroc" type="script"></cmd>
+  <cmd name="set_gtrigger_skiroc" type="script"></cmd>
+  <cmd name="set_trigmode_skiroc" type="script"></cmd>
+  <cmd name="set_delay_skiroc" type="script"></cmd>
+  <cmd name="set_cpcap_skiroc" type="script"></cmd>
+  <cmd name="set_fbcap_skiroc" type="script"></cmd>
+  <cmd name="set_start_ro_skiroc" type="script"></cmd>
+  <cmd name="set_end_ro_skiroc" type="script"></cmd>
+  <cmd name="enable_preamp_chans_skiroc" type="script"></cmd>
+  <cmd name="enable_calib_chans_skiroc" type="script"></cmd>
+  <cmd name="disable_calib_chans_skiroc" type="script"></cmd>
+  <cmd name="select_leak_chans_skiroc" type="script"></cmd>
+  <cmd name="unselect_leak_chans_skiroc" type="script"></cmd>
+  <cmd name="disable_preamp_chans_skiroc" type="script"></cmd> 
+  <cmd name="allow_trig_chans_skiroc" type="script"></cmd>
+  <cmd name="disallow_trig_chans_skiroc" type="script"></cmd>
+  <cmd name="set_dacadj_chans_skiroc" type="script"></cmd>
+
+</config>

@@ -1,0 +1,22 @@
+<config>
+  <name>serial</name>
+  <file>/opt/pyrame/cmd_serial.py</file>
+  <language>python</language>
+  <listen_port>SERIAL_PORT</listen_port>
+  <cmd name="getapi_serial" type="script"></cmd>
+  <cmd name="init_serial" type="script"></cmd>
+  <cmd name="deinit_serial" type="script"></cmd>
+  <cmd name="config_serial" type="script"></cmd>
+  <cmd name="inval_serial" type="script"></cmd>
+  <cmd name="write_serial" type="script"></cmd>
+  <cmd name="write_bin_serial" type="script"></cmd>
+  <cmd name="read_serial" type="script"></cmd>
+  <cmd name="read_bin_serial" type="script"></cmd>
+  <cmd name="read_until_serial" type="script"></cmd>
+  <cmd name="read_bin_until_serial" type="script"></cmd>
+  <cmd name="wrnrd_serial" type="script"></cmd>
+  <cmd name="wrnrd_bin_serial" type="script"></cmd>
+  <cmd name="wrnrd_until_serial" type="script"></cmd>
+  <cmd name="wrnrd_bin_until_serial" type="script"></cmd>
+  <cmd name="expect_serial" type="script"></cmd>
+</config>

@@ -1,0 +1,16 @@
+<config>
+  <name>test</name>
+  <file>/opt/pyrame/cmd_test.py</file>
+  <language>python</language>
+  <listen_port>TEST_PORT</listen_port>
+  <cmd name="void_test" type="script"></cmd>
+  <cmd name="fail_test" type="script"></cmd>
+  <cmd name="onearg_test" type="script"></cmd>
+  <cmd name="twoargs_test" type="script"></cmd>
+  <cmd name="cmod_test" type="script"></cmd>
+  <cmd name="varmod_test" type="script"></cmd>
+  <cmd name="setvar_varmod" type="host">
+    <host>localhost</host>
+    <port>VARMOD_PORT</port>
+  </cmd>
+</config>

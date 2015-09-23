@@ -1,0 +1,15 @@
+<config>
+  <name>varmod</name>
+  <file>/opt/pyrame/cmd_varmod.py</file>
+  <language>python</language>
+  <listen_port>VARMOD_PORT</listen_port>
+  <cmd name="new_device_cmod" type="host">
+    <host>localhost</host>
+    <port>CMOD_PORT</port>
+  </cmd>
+  <cmd name="init_varmod" type="script"></cmd>
+  <cmd name="setvar_varmod" type="script"></cmd>
+  <cmd name="getvar_varmod" type="script"></cmd>
+  <cmd name="intopvar_varmod" type="script"></cmd>
+  <cmd name="stropvar_varmod" type="script"></cmd>
+</config>

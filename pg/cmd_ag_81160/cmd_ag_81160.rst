@@ -1,0 +1,13 @@
+========================
+The ag_81160 module
+========================
+
+Module for Agilent 81160 pattern generators. Compatible with :doc:`the signal module <cmd_signal>`.
+
+API
+===
+
+.. automodule:: cmd_ag_81160
+   :members:
+   :member-order: bysource
+

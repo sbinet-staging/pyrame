@@ -1,0 +1,88 @@
+<config>
+  <name>sigpulse</name>
+  <file>/opt/pyrame/cmd_sigpulse.py</file>
+  <language>python</language>
+  <listen_port>SIGPULSE_PORT</listen_port>
+  <cmd name="new_device_cmod" type="host">
+    <host>localhost</host>
+    <port>CMOD_PORT</port>
+  </cmd>
+  <cmd name="set_param_cmod" type="host">
+    <host>localhost</host>
+    <port>CMOD_PORT</port>
+  </cmd>
+  <cmd name="init_signal" type="host">
+    <host>localhost</host>
+    <port>SIGNAL_PORT</port>
+  </cmd>
+  <cmd name="deinit_signal" type="host">
+    <host>localhost</host>
+    <port>SIGNAL_PORT</port>
+  </cmd>
+  <cmd name="init_pg_signal" type="host">
+    <host>localhost</host>
+    <port>SIGNAL_PORT</port>
+  </cmd>
+  <cmd name="deinit_pg_signal" type="host">
+    <host>localhost</host>
+    <port>SIGNAL_PORT</port>
+  </cmd>
+  <cmd name="config_pg_signal" type="host">
+    <host>localhost</host>
+    <port>SIGNAL_PORT</port>
+  </cmd>
+  <cmd name="inval_pg_signal" type="host">
+    <host>localhost</host>
+    <port>SIGNAL_PORT</port>
+  </cmd>
+  <cmd name="set_pg_signal" type="host">
+    <host>localhost</host>
+    <port>SIGNAL_PORT</port>
+  </cmd>
+  <cmd name="set_function_signal" type="host">
+    <host>localhost</host>
+    <port>SIGNAL_PORT</port>
+  </cmd>
+  <cmd name="set_high_level_signal" type="host">
+    <host>localhost</host>
+    <port>SIGNAL_PORT</port>
+  </cmd>
+  <cmd name="set_low_level_signal" type="host">
+    <host>localhost</host>
+    <port>SIGNAL_PORT</port>
+  </cmd>
+  <cmd name="set_frequency_signal" type="host">
+    <host>localhost</host>
+    <port>SIGNAL_PORT</port>
+  </cmd>
+  <cmd name="set_pulse_width_signal" type="host">
+    <host>localhost</host>
+    <port>SIGNAL_PORT</port>
+  </cmd>
+  <cmd name="set_edges_signal" type="host">
+    <host>localhost</host>
+    <port>SIGNAL_PORT</port>
+  </cmd>
+  <cmd name="set_phase_signal" type="host">
+    <host>localhost</host>
+    <port>SIGNAL_PORT</port>
+  </cmd>
+  <cmd name="power_on_signal" type="host">
+    <host>localhost</host>
+    <port>SIGNAL_PORT</port>
+  </cmd>
+  <cmd name="power_off_signal" type="host">
+    <host>localhost</host>
+    <port>SIGNAL_PORT</port>
+  </cmd>
+
+  <cmd name="getapi_sigpulse" type="script"></cmd>
+  <cmd name="init_sigpulse" type="script"></cmd>
+  <cmd name="deinit_sigpulse" type="script"></cmd>
+  <cmd name="config_sigpulse" type="script"></cmd>
+  <cmd name="inval_sigpulse" type="script"></cmd>
+  <cmd name="set_shape_sigpulse" type="script"></cmd>
+   <cmd name="set_frequency_sigpulse" type="script"></cmd>
+  <cmd name="output_on_sigpulse" type="script"></cmd>
+  <cmd name="output_off_sigpulse" type="script"></cmd>
+</config>

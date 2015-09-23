@@ -1,0 +1,13 @@
+========================
+The ag_33200 module
+========================
+
+Module for Agilent 33200 pattern generators. Compatible with :doc:`the signal module <cmd_signal>`.
+
+API
+===
+
+.. automodule:: cmd_ag_33200
+   :members:
+   :member-order: bysource
+

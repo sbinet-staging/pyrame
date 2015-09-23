@@ -1,0 +1,28 @@
+<config>
+  <name>spiroc</name>
+  <file>/opt/pyrame/cmd_spiroc.py</file>
+  <language>python</language>
+  <listen_port>SPIROC_PORT</listen_port>
+
+  <cmd name="set_param_cmod" type="host">
+    <host>localhost</host>
+    <port>CMOD_PORT</port>
+  </cmd>
+  <cmd name="new_device_cmod" type="host">
+    <host>localhost</host>
+    <port>CMOD_PORT</port>
+  </cmd>
+
+  <!--    INTERNAL FUNCTIONS         -->
+  <cmd name="init_spiroc" type="script"></cmd>
+  <cmd name="deinit_spiroc" type="script"></cmd>
+  <cmd name="config_spiroc" type="script"></cmd>
+  <cmd name="dump_sc_spiroc" type="script"></cmd>
+  <cmd name="set_missing_spiroc" type="script"></cmd>
+  <cmd name="get_chipid_spiroc" type="script"></cmd>
+  <cmd name="set_chipid_param_spiroc" type="script"></cmd>
+  <cmd name="set_gtrigger_spiroc" type="script"></cmd>
+  <cmd name="allow_trig_chans_spiroc" type="script"></cmd>
+  <cmd name="disallow_trig_chans_spiroc" type="script"></cmd>
+
+</config>

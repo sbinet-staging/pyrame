@@ -1,0 +1,46 @@
+<config>
+  <name>ha_hmp4030</name>
+  <file>/opt/pyrame/cmd_ha_hmp4030.py</file>
+  <language>python</language>
+  <listen_port>HA_HMP4030_PORT</listen_port>
+  <cmd name="init_tcp" type="host">
+    <host>localhost</host>
+    <port>TCP_PORT</port>
+  </cmd>
+  <cmd name="deinit_tcp" type="host">
+    <host>localhost</host>
+    <port>TCP_PORT</port>
+  </cmd>
+  <cmd name="config_tcp" type="host">
+    <host>localhost</host>
+    <port>TCP_PORT</port>
+  </cmd>
+  <cmd name="inval_tcp" type="host">
+    <host>localhost</host>
+    <port>TCP_PORT</port>
+  </cmd>
+  <cmd name="write_tcp" type="host">
+    <host>localhost</host>
+    <port>TCP_PORT</port>
+  </cmd>
+  <cmd name="wrnrd_until_tcp" type="host">
+    <host>localhost</host>
+    <port>TCP_PORT</port>
+  </cmd>
+  <cmd name="getapi_ha_hmp4030" type="script"></cmd>
+  <cmd name="init_ha_hmp4030" type="script"></cmd>
+  <cmd name="deinit_ha_hmp4030" type="script"></cmd>
+  <cmd name="config_ha_hmp4030" type="script"></cmd>
+  <cmd name="inval_ha_hmp4030" type="script"></cmd>
+  <cmd name="reset_ha_hmp4030" type="script"></cmd>
+  <cmd name="power_on_ha_hmp4030" type="script"></cmd>
+  <cmd name="power_off_ha_hmp4030" type="script"></cmd>
+  <cmd name="set_voltage_ha_hmp4030" type="script"></cmd>
+  <cmd name="set_current_ha_hmp4030" type="script"></cmd>
+  <cmd name="set_voltage_limit_ha_hmp4030" type="script"></cmd>
+  <cmd name="set_current_limit_ha_hmp4030" type="script"></cmd>
+  <cmd name="get_voltage_ha_hmp4030" type="script"></cmd>
+  <cmd name="get_current_ha_hmp4030" type="script"></cmd>
+  <cmd name="free_command_ha_hmp4030" type="script"></cmd>
+  <cmd name="get_error_queue_ha_hmp4030" type="script"></cmd>
+</config>

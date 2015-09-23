@@ -1,0 +1,390 @@
+<config>
+  <name>ps</name>
+  <file>/opt/pyrame/cmd_ps.py</file>
+  <language>python</language>
+  <listen_port>PS_PORT</listen_port>
+
+  <cmd name="getapi_la_gen8_90" type="host">
+    <host>localhost</host>
+    <port>LA_GEN8_90_PORT</port>
+  </cmd>
+  <cmd name="init_la_gen8_90" type="host">
+    <host>localhost</host>
+    <port>LA_GEN8_90_PORT</port>
+  </cmd>
+  <cmd name="deinit_la_gen8_90" type="host">
+    <host>localhost</host>
+    <port>LA_GEN8_90_PORT</port>
+  </cmd>
+  <cmd name="config_la_gen8_90" type="host">
+    <host>localhost</host>
+    <port>LA_GEN8_90_PORT</port>
+  </cmd>
+  <cmd name="inval_la_gen8_90" type="host">
+    <host>localhost</host>
+    <port>LA_GEN8_90_PORT</port>
+  </cmd>
+  <cmd name="reset_la_gen8_90" type="host">
+    <host>localhost</host>
+    <port>LA_GEN8_90_PORT</port>
+  </cmd>
+  <cmd name="set_voltage_la_gen8_90" type="host">
+    <host>localhost</host>
+    <port>LA_GEN8_90_PORT</port>
+  </cmd>
+  <cmd name="set_current_la_gen8_90" type="host">
+    <host>localhost</host>
+    <port>LA_GEN8_90_PORT</port>
+  </cmd>
+  <cmd name="set_voltage_limit_la_gen8_90" type="host">
+    <host>localhost</host>
+    <port>LA_GEN8_90_PORT</port>
+  </cmd>
+  <cmd name="set_current_limit_la_gen8_90" type="host">
+    <host>localhost</host>
+    <port>LA_GEN8_90_PORT</port>
+  </cmd>
+  <cmd name="get_voltage_la_gen8_90" type="host">
+    <host>localhost</host>
+    <port>LA_GEN8_90_PORT</port>
+  </cmd>
+  <cmd name="get_current_la_gen8_90" type="host">
+    <host>localhost</host>
+    <port>LA_GEN8_90_PORT</port>
+  </cmd>
+  <cmd name="power_on_la_gen8_90" type="host">
+    <host>localhost</host>
+    <port>LA_GEN8_90_PORT</port>
+  </cmd>
+  <cmd name="power_off_la_gen8_90" type="host">
+    <host>localhost</host>
+    <port>LA_GEN8_90_PORT</port>
+  </cmd>
+  <cmd name="free_command_la_gen8_90" type="host">
+    <host>localhost</host>
+    <port>LA_GEN8_90_PORT</port>
+  </cmd>
+  <cmd name="get_error_queue_la_gen8_90" type="host">
+    <host>localhost</host>
+    <port>LA_GEN8_90_PORT</port>
+  </cmd>
+
+  <cmd name="getapi_ag_e3631a" type="host">
+    <host>localhost</host>
+    <port>AG_E3631A_PORT</port>
+  </cmd>
+  <cmd name="init_ag_e3631a" type="host">
+    <host>localhost</host>
+    <port>AG_E3631A_PORT</port>
+  </cmd>
+  <cmd name="deinit_ag_e3631a" type="host">
+    <host>localhost</host>
+    <port>AG_E3631A_PORT</port>
+  </cmd>
+  <cmd name="config_ag_e3631a" type="host">
+    <host>localhost</host>
+    <port>AG_E3631A_PORT</port>
+  </cmd>
+  <cmd name="inval_ag_e3631a" type="host">
+    <host>localhost</host>
+    <port>AG_E3631A_PORT</port>
+  </cmd>
+  <cmd name="reset_ag_e3631a" type="host">
+    <host>localhost</host>
+    <port>AG_E3631A_PORT</port>
+  </cmd>
+  <cmd name="set_voltage_ag_e3631a" type="host">
+    <host>localhost</host>
+    <port>AG_E3631A_PORT</port>
+  </cmd>
+  <cmd name="set_current_ag_e3631a" type="host">
+    <host>localhost</host>
+    <port>AG_E3631A_PORT</port>
+  </cmd>
+  <cmd name="set_voltage_limit_ag_e3631a" type="host">
+    <host>localhost</host>
+    <port>AG_E3631A_PORT</port>
+  </cmd>
+  <cmd name="set_current_limit_ag_e3631a" type="host">
+    <host>localhost</host>
+    <port>AG_E3631A_PORT</port>
+  </cmd>
+  <cmd name="get_voltage_ag_e3631a" type="host">
+    <host>localhost</host>
+    <port>AG_E3631A_PORT</port>
+  </cmd>
+  <cmd name="get_current_ag_e3631a" type="host">
+    <host>localhost</host>
+    <port>AG_E3631A_PORT</port>
+  </cmd>
+  <cmd name="power_on_ag_e3631a" type="host">
+    <host>localhost</host>
+    <port>AG_E3631A_PORT</port>
+  </cmd>
+  <cmd name="power_off_ag_e3631a" type="host">
+    <host>localhost</host>
+    <port>AG_E3631A_PORT</port>
+  </cmd>
+  <cmd name="free_command_ag_e3631a" type="host">
+    <host>localhost</host>
+    <port>AG_E3631A_PORT</port>
+  </cmd>
+  <cmd name="get_error_queue_ag_e3631a" type="host">
+    <host>localhost</host>
+    <port>AG_E3631A_PORT</port>
+  </cmd>
+
+  <cmd name="getapi_ag_n6700b" type="host">
+    <host>localhost</host>
+    <port>AG_N6700B_PORT</port>
+  </cmd>
+  <cmd name="init_ag_n6700b" type="host">
+    <host>localhost</host>
+    <port>AG_N6700B_PORT</port>
+  </cmd>
+  <cmd name="deinit_ag_n6700b" type="host">
+    <host>localhost</host>
+    <port>AG_N6700B_PORT</port>
+  </cmd>
+  <cmd name="config_ag_n6700b" type="host">
+    <host>localhost</host>
+    <port>AG_N6700B_PORT</port>
+  </cmd>
+  <cmd name="inval_ag_n6700b" type="host">
+    <host>localhost</host>
+    <port>AG_N6700B_PORT</port>
+  </cmd>
+  <cmd name="reset_ag_n6700b" type="host">
+    <host>localhost</host>
+    <port>AG_N6700B_PORT</port>
+  </cmd>
+  <cmd name="set_voltage_ag_n6700b" type="host">
+    <host>localhost</host>
+    <port>AG_N6700B_PORT</port>
+  </cmd>
+  <cmd name="set_current_ag_n6700b" type="host">
+    <host>localhost</host>
+    <port>AG_N6700B_PORT</port>
+  </cmd>
+  <cmd name="set_current_limit_ag_n6700b" type="host">
+    <host>localhost</host>
+    <port>AG_N6700B_PORT</port>
+  </cmd>
+  <cmd name="set_voltage_limit_ag_n6700b" type="host">
+    <host>localhost</host>
+    <port>AG_N6700B_PORT</port>
+  </cmd>
+  <cmd name="get_voltage_ag_n6700b" type="host">
+    <host>localhost</host>
+    <port>AG_N6700B_PORT</port>
+  </cmd>
+  <cmd name="get_current_ag_n6700b" type="host">
+    <host>localhost</host>
+    <port>AG_N6700B_PORT</port>
+  </cmd>
+  <cmd name="set_rise_delay_ag_n6700b" type="host">
+    <host>localhost</host>
+    <port>AG_N6700B_PORT</port>
+  </cmd>
+  <cmd name="power_on_ag_n6700b" type="host">
+    <host>localhost</host>
+    <port>AG_N6700B_PORT</port>
+  </cmd>
+  <cmd name="power_off_ag_n6700b" type="host">
+    <host>localhost</host>
+    <port>AG_N6700B_PORT</port>
+  </cmd>
+  <cmd name="free_command_ag_n6700b" type="host">
+    <host>localhost</host>
+    <port>AG_N6700B_PORT</port>
+  </cmd>
+  <cmd name="get_error_queue_ag_n6700b" type="host">
+    <host>localhost</host>
+    <port>AG_N6700B_PORT</port>
+  </cmd>
+
+  <cmd name="getapi_ca_sy527" type="host">
+    <host>localhost</host>
+    <port>CA_SY527_PORT</port>
+  </cmd>
+  <cmd name="init_ca_sy527" type="host">
+    <host>localhost</host>
+    <port>CA_SY527_PORT</port>
+  </cmd>
+  <cmd name="deinit_ca_sy527" type="host">
+    <host>localhost</host>
+    <port>CA_SY527_PORT</port>
+  </cmd>
+  <cmd name="set_voltage_ca_sy527" type="host">
+    <host>localhost</host>
+    <port>CA_SY527_PORT</port>
+  </cmd>
+  <cmd name="set_current_ca_sy527" type="host">
+    <host>localhost</host>
+    <port>CA_SY527_PORT</port>
+  </cmd>
+  <cmd name="get_voltage_ca_sy527" type="host">
+    <host>localhost</host>
+    <port>CA_SY527_PORT</port>
+  </cmd>
+  <cmd name="get_current_ca_sy527" type="host">
+    <host>localhost</host>
+    <port>CA_SY527_PORT</port>
+  </cmd>
+  <cmd name="set_voltage_limit_ca_sy527" type="host">
+    <host>localhost</host>
+    <port>CA_SY527_PORT</port>
+  </cmd>
+  <cmd name="set_current_limit_ca_sy527" type="host">
+    <host>localhost</host>
+    <port>CA_SY527_PORT</port>
+  </cmd>
+  <cmd name="power_on_ca_sy527" type="host">
+    <host>localhost</host>
+    <port>CA_SY527_PORT</port>
+  </cmd>
+  <cmd name="power_off_ca_sy527" type="host">
+    <host>localhost</host>
+    <port>CA_SY527_PORT</port>
+  </cmd>
+
+  <cmd name="getapi_ha_hmp4030" type="host">
+    <host>localhost</host>
+    <port>HA_HMP4030_PORT</port>
+  </cmd>
+  <cmd name="init_ha_hmp4030" type="host">
+    <host>localhost</host>
+    <port>HA_HMP4030_PORT</port>
+  </cmd>
+  <cmd name="deinit_ha_hmp4030" type="host">
+    <host>localhost</host>
+    <port>HA_HMP4030_PORT</port>
+  </cmd>
+  <cmd name="config_ha_hmp4030" type="host">
+    <host>localhost</host>
+    <port>HA_HMP4030_PORT</port>
+  </cmd>
+  <cmd name="inval_ha_hmp4030" type="host">
+    <host>localhost</host>
+    <port>HA_HMP4030_PORT</port>
+  </cmd>
+  <cmd name="reset_ha_hmp4030" type="host">
+    <host>localhost</host>
+    <port>HA_HMP4030_PORT</port>
+  </cmd>
+  <cmd name="set_voltage_ha_hmp4030" type="host">
+    <host>localhost</host>
+    <port>HA_HMP4030_PORT</port>
+  </cmd>
+  <cmd name="set_current_ha_hmp4030" type="host">
+    <host>localhost</host>
+    <port>HA_HMP4030_PORT</port>
+  </cmd>
+  <cmd name="set_voltage_limit_ha_hmp4030" type="host">
+    <host>localhost</host>
+    <port>HA_HMP4030_PORT</port>
+  </cmd>
+  <cmd name="set_current_limit_ha_hmp4030" type="host">
+    <host>localhost</host>
+    <port>HA_HMP4030_PORT</port>
+  </cmd>
+  <cmd name="get_voltage_ha_hmp4030" type="host">
+    <host>localhost</host>
+    <port>HA_HMP4030_PORT</port>
+  </cmd>
+  <cmd name="get_current_ha_hmp4030" type="host">
+    <host>localhost</host>
+    <port>HA_HMP4030_PORT</port>
+  </cmd>
+  <cmd name="power_on_ha_hmp4030" type="host">
+    <host>localhost</host>
+    <port>HA_HMP4030_PORT</port>
+  </cmd>
+  <cmd name="power_off_ha_hmp4030" type="host">
+    <host>localhost</host>
+    <port>HA_HMP4030_PORT</port>
+  </cmd>
+  <cmd name="free_command_ha_hmp4030" type="host">
+    <host>localhost</host>
+    <port>HA_HMP4030_PORT</port>
+  </cmd>
+  <cmd name="get_error_queue_ha_hmp4030" type="host">
+    <host>localhost</host>
+    <port>HA_HMP4030_PORT</port>
+  </cmd>
+
+  <cmd name="getapi_ki_6487" type="host">
+    <host>localhost</host>
+    <port>KI_6487_PORT</port>
+  </cmd>
+  <cmd name="init_ki_6487" type="host">
+    <host>localhost</host>
+    <port>KI_6487_PORT</port>
+  </cmd>
+  <cmd name="deinit_ki_6487" type="host">
+    <host>localhost</host>
+    <port>KI_6487_PORT</port>
+  </cmd>
+  <cmd name="config_ki_6487" type="host">
+    <host>localhost</host>
+    <port>KI_6487_PORT</port>
+  </cmd>
+  <cmd name="inval_ki_6487" type="host">
+    <host>localhost</host>
+    <port>KI_6487_PORT</port>
+  </cmd>
+  <cmd name="reset_ki_6487" type="host">
+    <host>localhost</host>
+    <port>KI_6487_PORT</port>
+  </cmd>
+  <cmd name="set_voltage_ki_6487" type="host">
+    <host>localhost</host>
+    <port>KI_6487_PORT</port>
+  </cmd>
+  <cmd name="set_current_limit_ki_6487" type="host">
+    <host>localhost</host>
+    <port>KI_6487_PORT</port>
+  </cmd>
+  <cmd name="get_voltage_ki_6487" type="host">
+    <host>localhost</host>
+    <port>KI_6487_PORT</port>
+  </cmd>
+  <cmd name="get_current_ki_6487" type="host">
+    <host>localhost</host>
+    <port>KI_6487_PORT</port>
+  </cmd>
+  <cmd name="power_on_ki_6487" type="host">
+    <host>localhost</host>
+    <port>KI_6487_PORT</port>
+  </cmd>
+  <cmd name="power_off_ki_6487" type="host">
+    <host>localhost</host>
+    <port>KI_6487_PORT</port>
+  </cmd>
+   <cmd name="free_command_ki_6487" type="host">
+    <host>localhost</host>
+    <port>KI_6487_PORT</port>
+  </cmd>
+  <cmd name="get_error_queue_ki_6487" type="host">
+    <host>localhost</host>
+    <port>KI_6487_PORT</port>
+  </cmd>
+
+  <cmd name="getapi_ps" type="script"></cmd>
+  <cmd name="init_ps" type="script"></cmd>
+  <cmd name="deinit_ps" type="script"></cmd>
+  <cmd name="config_ps" type="script"></cmd>
+  <cmd name="inval_ps" type="script"></cmd>
+  <cmd name="reset_ps" type="script"></cmd>
+  <cmd name="set_voltage_ps" type="script"></cmd>
+  <cmd name="set_current_ps" type="script"></cmd>
+  <cmd name="set_voltage_limit_ps" type="script"></cmd>
+  <cmd name="set_current_limit_ps" type="script"></cmd>
+  <cmd name="get_voltage_ps" type="script"></cmd>
+  <cmd name="get_current_ps" type="script"></cmd>
+  <cmd name="set_rise_delay_ps" type="script"></cmd>
+  <cmd name="power_on_ps" type="script"></cmd>
+  <cmd name="power_off_ps" type="script"></cmd>
+  <cmd name="free_command_ps" type="script"></cmd>
+  <cmd name="get_error_queue_ps" type="script"></cmd>
+</config>

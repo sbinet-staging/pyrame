@@ -1,0 +1,54 @@
+Pyrame 2.1.3
+============
+
+Copyright 2012-2015 Frédéric Magniette, Miguel Rubio-Roy
+
+Online documentation:
+http://llr.in2p3.fr/sites/pyrame/documentation
+
+Website:
+http://llr.in2p3.fr/sites/pyrame
+
+After installation of Pyrame, install documentation with:
+make -C docs install
+access it at /opt/pyrame/doc/index.html
+
+Release notes:
+--------------
+
+2.1.3 (April 30th 2015):
+  - fix bitstream length in spiroc module
+  - fix bitstream order in maroc3 module
+  - more flexible bitstream loading (trim at the end if too long)
+  - update classic launchers for new cmd_raweth module
+
+2.1.2 (April 29th 2015):
+  - unbuffer autolauncher output and redirect it all to stdout
+  - low importance fixes
+
+2.1.1 (April 20th 2015):
+  - roc modules now check bitstream lengths when loading
+  - Bugfixes
+
+2.1 (April 10th 2015):
+  - New multilanguage and faster cmdmod
+  - New motion modules: abstraction layers cmd_motion and cmd_paths, Thorlabs APT controller
+  - New modules for Omega's read-out chips: SKIROC2, SPIROC2, EASIROC and MAROC3
+  - New unified conf_string format
+  - Autolauncher of Pyrame modules
+  - New buses implementation: tcp, serial and gpib
+  - New LakeShore 421 module
+  - Bugfix in LabView binding
+  - New power supplies implementation
+  - New module to interact with operator
+  - Many other small improvements
+
+2.0.2 (February 19th 2015):
+  - Bugfixing in sigpulse, sigsquare and signal
+  - New module sg_wl350 for SIGNATONE WL350 probe station
+  - Fixes in ki_6487 and ps
+  - Fix gpib to support multiple devices per adapter
+  - Fix LabView 2009 binding to bypass LabView memory leak on XML parser
+  - Fix file acquisition plugin
+  - Better POSIX compliance
+

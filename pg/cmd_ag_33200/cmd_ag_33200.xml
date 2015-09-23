@@ -1,0 +1,78 @@
+<config>
+  <name>ag_33200</name>
+  <file>/opt/pyrame/cmd_ag_33200.py</file>
+  <language>python</language>
+  <listen_port>AG_33200_PORT</listen_port>
+  <cmd name="init_gpib" type="host">
+    <host>localhost</host>
+    <port>GPIB_PORT</port>
+  </cmd>
+  <cmd name="deinit_gpib" type="host">
+    <host>localhost</host>
+    <port>GPIB_PORT</port>
+  </cmd>
+  <cmd name="config_gpib" type="host">
+    <host>localhost</host>
+    <port>GPIB_PORT</port>
+  </cmd>
+  <cmd name="inval_gpib" type="host">
+    <host>localhost</host>
+    <port>GPIB_PORT</port>
+  </cmd>
+  <cmd name="write_gpib" type="host">
+    <host>localhost</host>
+    <port>GPIB_PORT</port>
+  </cmd>
+  <cmd name="wrnrd_until_gpib" type="host">
+    <host>localhost</host>
+    <port>GPIB_PORT</port>
+  </cmd>
+  <cmd name="init_tcp" type="host">
+    <host>localhost</host>
+    <port>TCP_PORT</port>
+  </cmd>
+  <cmd name="deinit_tcp" type="host">
+    <host>localhost</host>
+    <port>TCP_PORT</port>
+  </cmd>
+  <cmd name="config_tcp" type="host">
+    <host>localhost</host>
+    <port>TCP_PORT</port>
+  </cmd>
+  <cmd name="inval_tcp" type="host">
+    <host>localhost</host>
+    <port>TCP_PORT</port>
+  </cmd>
+  <cmd name="write_tcp" type="host">
+    <host>localhost</host>
+    <port>TCP_PORT</port>
+  </cmd>
+  <cmd name="wrnrd_until_tcp" type="host">
+    <host>localhost</host>
+    <port>TCP_PORT</port>
+  </cmd>
+  <cmd name="getapi_ag_33200" type="script"></cmd>
+  <cmd name="init_ag_33200" type="script"></cmd>
+  <cmd name="deinit_ag_33200" type="script"></cmd>
+  <cmd name="config_ag_33200" type="script"></cmd>
+  <cmd name="inval_ag_33200" type="script"></cmd>
+  <cmd name="reset_ag_33200" type="script"></cmd>
+  <cmd name="configure_sine_ag_33200" type="script"></cmd>
+  <cmd name="configure_square_ag_33200" type="script"></cmd>
+  <cmd name="configure_ramp_ag_33200" type="script"></cmd>
+  <cmd name="configure_pulse_ag_33200" type="script"></cmd>
+  <cmd name="power_on_ag_33200" type="script"></cmd>
+  <cmd name="power_off_ag_33200" type="script"></cmd>
+  <cmd name="set_function_ag_33200" type="script"></cmd>
+  <cmd name="set_high_level_ag_33200" type="script"></cmd>
+  <cmd name="set_low_level_ag_33200" type="script"></cmd>
+  <cmd name="set_frequency_ag_33200" type="script"></cmd>
+  <cmd name="get_frequency_ag_33200" type="script"></cmd>
+  <cmd name="set_duty_cycle_ag_33200" type="script"></cmd>
+  <cmd name="set_pulse_width_ag_33200" type="script"></cmd>
+  <cmd name="set_edges_ag_33200" type="script"></cmd>
+  <cmd name="set_symmetry_ag_33200" type="script"></cmd>
+  <cmd name="set_phase_ag_33200" type="script"></cmd>
+  <cmd name="set_sync_ag_33200" type="script"></cmd>
+  <cmd name="get_error_queue_ag_33200" type="script"></cmd>
+</config>

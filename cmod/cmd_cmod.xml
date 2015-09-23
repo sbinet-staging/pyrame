@@ -1,0 +1,19 @@
+<config>
+  <name>cmod</name>
+  <file>/opt/pyrame/cmd_cmod.py</file>
+  <language>python</language>
+  <listen_port>CMOD_PORT</listen_port>
+  <cmd name="deinit_cmod" type="script"></cmd>
+  <cmd name="new_device_cmod" type="script"></cmd>
+  <cmd name="gener_config_cmod" type="script"></cmd>
+  <cmd name="set_param_cmod" type="script"></cmd>
+  <cmd name="get_param_cmod" type="script"></cmd>
+  <cmd name="get_id_cmod" type="script"></cmd>
+  <cmd name="get_ip_byid_cmod" type="script"></cmd>
+  <cmd name="get_ip_byname_cmod" type="script"></cmd>
+  <cmd name="get_type_cmod" type="script"></cmd>
+  <cmd name="get_name_list_cmod" type="script"></cmd>
+  <cmd name="get_name_sublist_cmod" type="script"></cmd>
+  <cmd name="get_id_list_cmod" type="script"></cmd>
+  <cmd name="get_id_sublist_cmod" type="script"></cmd>
+</config>

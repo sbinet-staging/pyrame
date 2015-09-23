@@ -1,0 +1,11 @@
+<config>
+  <name>detector</name>
+  <file>/opt/pyrame/cmd_detector.py</file>
+  <language>python</language>
+  <listen_port>DETECTOR_PORT</listen_port>
+  <cmd name="new_device_cmod" type="host">
+    <host>localhost</host>
+    <port>CMOD_PORT</port>
+  </cmd>
+  <cmd name="init_detector" type="script"></cmd>
+</config>

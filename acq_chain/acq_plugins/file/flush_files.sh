@@ -1,0 +1,1 @@
+../../commands/flush_files.sh

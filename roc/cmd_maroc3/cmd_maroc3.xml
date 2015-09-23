@@ -1,0 +1,42 @@
+<config>
+  <name>maroc3</name>
+  <file>/opt/pyrame/cmd_maroc3.py</file>
+  <language>python</language>
+  <listen_port>MAROC3_PORT</listen_port>
+
+  <cmd name="set_param_cmod" type="host">
+    <host>localhost</host>
+    <port>CMOD_PORT</port>
+  </cmd>
+  <cmd name="new_device_cmod" type="host">
+    <host>localhost</host>
+    <port>CMOD_PORT</port>
+  </cmd>
+
+  <!--    INTERNAL FUNCTIONS         -->
+  <cmd name="init_maroc3" type="script"></cmd>
+  <cmd name="deinit_maroc3" type="script"></cmd>
+  <cmd name="config_maroc3" type="script"></cmd>
+  <cmd name="dump_sc_maroc3" type="script"></cmd>
+  <cmd name="set_missing_maroc3" type="script"></cmd>
+  <cmd name="disable_ctest_chans_maroc3" type="script"></cmd> 
+  <cmd name="disable_sum_chans_maroc3" type="script"></cmd> 
+  <cmd name="enable_ctest_chans_maroc3" type="script"></cmd> 
+  <cmd name="enable_sum_chans_maroc3" type="script"></cmd> 
+  <cmd name="mask_or1_chans_maroc3" type="script"></cmd> 
+  <cmd name="mask_or2_chans_maroc3" type="script"></cmd> 
+  <cmd name="set_156_to_188_maroc3" type="script"></cmd> 
+  <cmd name="set_10bit_ramp_wlk_maroc3" type="script"></cmd> 
+  <cmd name="set_8bit_ramp_wlk_maroc3" type="script"></cmd> 
+  <cmd name="set_dac0_maroc3" type="script"></cmd> 
+  <cmd name="set_dac1_maroc3" type="script"></cmd> 
+  <cmd name="set_data_output_wlk_maroc3" type="script"></cmd> 
+  <cmd name="set_inv_start_counter_wlk_maroc3" type="script"></cmd> 
+  <cmd name="set_pp_bandgap_maroc3" type="script"></cmd> 
+  <cmd name="set_pp_dacs_maroc3" type="script"></cmd> 
+  <cmd name="set_preamp_gain_chans_maroc3" type="script"></cmd> 
+  <cmd name="set_small_dac_maroc3" type="script"></cmd> 
+  <cmd name="unmask_or1_maroc3" type="script"></cmd> 
+  <cmd name="unmask_or2_maroc3" type="script"></cmd> 
+
+</config>

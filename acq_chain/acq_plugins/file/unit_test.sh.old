@@ -1,0 +1,27 @@
+. /usr/local/bin/unit_test_lib.sh
+. /opt/pyrame/ports.sh
+
+clean_all
+echo 
+echo 
+echo "FILE ACQ_PLUGIN TESTS"
+echo
+rm -rf /tmp/file_unit_test
+mkdir /tmp/file_unit_test
+stdbuf -oL -eL acq_server > server.trace 2>&1 &
+sleep 1s
+exec_n_test ./init_ut.sh
+exec_n_test ./add_file_dummy.sh
+nc localhost $STREAMBASE_PORT > socket.trace &
+exec_n_test ./startacq.sh
+exec_n_test ./stopacq.sh
+exec_n_test ./flush_files.sh test
+exec_n_test ./getstats.sh
+check_exist_file /tmp/file_unit_test/test_file_0.raw
+#check_equal_files /tmp/file_unit_test/test_file_0.raw raw.ref
+#check_equal_files socket.trace raw.ref
+exec_n_test ./deinit.sh
+echo "all test passed"
+rm -rf /tmp/file_unit_test
+clean_all
+exit 0

@@ -1,0 +1,12 @@
+In this folder are some specific launcher.
+There is no constraint about launching the different parts of Pyrame. 
+
+All the cmd_*.py should be launched with cmdmod as: 
+cmdmod /opt/pyrame/cmd_ca_sy527.xml
+
+All the *_server should be launched as binaries as: 
+acq_server
+
+All the outputs are done on standard output and can be redirected to files.
+
+The kill_pyrame.sh allows to kill all the pyrame process at the same time

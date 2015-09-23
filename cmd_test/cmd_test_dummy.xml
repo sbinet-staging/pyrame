@@ -1,0 +1,9 @@
+<config>
+  <name>test</name>
+  <listen_port>TEST_PORT</listen_port>
+  <language>dummy</language>
+  <cmd name="void_test" type="script"></cmd>
+  <cmd name="fail_test" type="script"></cmd>
+  <cmd name="onearg_test" type="script"></cmd>
+  <cmd name="twoargs_test" type="script"></cmd>
+</config>

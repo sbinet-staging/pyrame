@@ -1,0 +1,1 @@
+cmd_signal cmd_sigpulse cmd_sigsquare cmd_ag_33200 cmd_ag_33500 cmd_ag_81160

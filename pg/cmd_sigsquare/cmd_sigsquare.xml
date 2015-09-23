@@ -1,0 +1,84 @@
+<config>
+  <name>sigsquare</name>
+  <file>/opt/pyrame/cmd_sigsquare.py</file>
+  <language>python</language>
+  <listen_port>SIGSQUARE_PORT</listen_port>
+  <cmd name="new_device_cmod" type="host">
+    <host>localhost</host>
+    <port>CMOD_PORT</port>
+  </cmd>
+  <cmd name="set_param_cmod" type="host">
+    <host>localhost</host>
+    <port>CMOD_PORT</port>
+  </cmd>
+  <cmd name="init_signal" type="host">
+    <host>localhost</host>
+    <port>SIGNAL_PORT</port>
+  </cmd>
+  <cmd name="deinit_signal" type="host">
+    <host>localhost</host>
+    <port>SIGNAL_PORT</port>
+  </cmd>
+  <cmd name="init_pg_signal" type="host">
+    <host>localhost</host>
+    <port>SIGNAL_PORT</port>
+  </cmd>
+  <cmd name="deinit_pg_signal" type="host">
+    <host>localhost</host>
+    <port>SIGNAL_PORT</port>
+  </cmd>
+  <cmd name="config_pg_signal" type="host">
+    <host>localhost</host>
+    <port>SIGNAL_PORT</port>
+  </cmd>
+  <cmd name="inval_pg_signal" type="host">
+    <host>localhost</host>
+    <port>SIGNAL_PORT</port>
+  </cmd>
+  <cmd name="set_pg_signal" type="host">
+    <host>localhost</host>
+    <port>SIGNAL_PORT</port>
+  </cmd>
+  <cmd name="set_function_signal" type="host">
+    <host>localhost</host>
+    <port>SIGNAL_PORT</port>
+  </cmd>
+  <cmd name="set_high_level_signal" type="host">
+    <host>localhost</host>
+    <port>SIGNAL_PORT</port>
+  </cmd>
+  <cmd name="set_low_level_signal" type="host">
+    <host>localhost</host>
+    <port>SIGNAL_PORT</port>
+  </cmd>
+  <cmd name="set_frequency_signal" type="host">
+    <host>localhost</host>
+    <port>SIGNAL_PORT</port>
+  </cmd>
+  <cmd name="set_duty_cycle_signal" type="host">
+    <host>localhost</host>
+    <port>SIGNAL_PORT</port>
+  </cmd>
+  <cmd name="set_phase_signal" type="host">
+    <host>localhost</host>
+    <port>SIGNAL_PORT</port>
+  </cmd>
+  <cmd name="power_on_signal" type="host">
+    <host>localhost</host>
+    <port>SIGNAL_PORT</port>
+  </cmd>
+  <cmd name="power_off_signal" type="host">
+    <host>localhost</host>
+    <port>SIGNAL_PORT</port>
+  </cmd>
+
+  <cmd name="getapi_sigsquare" type="script"></cmd>
+  <cmd name="init_sigsquare" type="script"></cmd>
+  <cmd name="deinit_sigsquare" type="script"></cmd>
+  <cmd name="config_sigsquare" type="script"></cmd>
+  <cmd name="inval_sigsquare" type="script"></cmd>
+  <cmd name="set_shape_sigsquare" type="script"></cmd>
+   <cmd name="set_frequency_sigsquare" type="script"></cmd>
+  <cmd name="output_on_sigsquare" type="script"></cmd>
+  <cmd name="output_off_sigsquare" type="script"></cmd>
+</config>

@@ -1,0 +1,31 @@
+<config>
+  <name>paths</name>
+  <file>/opt/pyrame/cmd_paths.py</file>
+  <language>python</language>
+  <listen_port>PATHS_PORT</listen_port>
+  
+  <cmd name="init_paths" type="script"></cmd>
+  <cmd name="deinit_paths" type="script"></cmd>
+  <cmd name="add_limits_paths" type="script"></cmd>
+  <cmd name="move_paths" type="script"></cmd>
+  <cmd name="init_volume_paths" type="script"></cmd>
+  <cmd name="deinit_volume_paths" type="script"></cmd>
+  <cmd name="init_matrix_paths" type="script"></cmd>
+  <cmd name="deinit_matrix_paths" type="script"></cmd>
+  <cmd name="get_matrix_paths" type="script"></cmd>
+  <cmd name="next_matrix_paths" type="script"></cmd>
+  <cmd name="reset_matrix_paths" type="script"></cmd>
+
+  <cmd name="move_motion" type="host">
+    <host>localhost</host>
+    <port>MOTION_PORT</port>    
+  </cmd>
+  <cmd name="get_pos_motion" type="host">
+    <host>localhost</host>
+    <port>MOTION_PORT</port>    
+  </cmd>
+  <cmd name="get_limits_motion" type="host">
+    <host>localhost</host>
+    <port>MOTION_PORT</port>    
+  </cmd>
+</config>

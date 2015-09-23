@@ -1,0 +1,18 @@
+all: cmd_test_c.so cmd_test_cpp.so
+
+cmd_test_c.so: cmd_test.c
+	gcc -rdynamic -g -Wall -fPIC -o cmd_test_c.so -shared cmd_test.c
+
+cmd_test_cpp.so: cmd_test.cpp
+	g++ -rdynamic -g -Wall -Wno-write-strings -fPIC -o cmd_test_cpp.so -shared cmd_test.cpp
+
+install: all
+	cp -f cmd_test_c.so /opt/pyrame
+	cp -f cmd_test_cpp.so /opt/pyrame
+	cp -f cmd_test.sh /opt/pyrame
+
+uninstall:
+
+clean:
+	rm -f cmd_test_c.so
+	rm -f cmd_test_cpp.so

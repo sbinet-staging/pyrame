@@ -1,0 +1,1 @@
+ports libpyrame bindings websocket getapi pools conf_strings cmd_test unit_tests varmod detector domain cmod cmdmod chkpyr launcher acq_chain bus calxml scpi ps multimeter motion pg converter dso gaussmeter cmd_operator roc

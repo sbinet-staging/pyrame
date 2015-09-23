@@ -1,0 +1,51 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="UTF-8">
+<script type="text/javascript" src="../bindpyrame.js"></script>
+<script type="text/javascript">
+
+function SendForm() {
+
+  function writeDown(retcode,res) {
+    document.getElementById("retcode").innerHTML = retcode;
+    document.getElementById("res").innerHTML = res;
+  }
+
+  ws_host = document.getElementById("ws_host").value;
+  ws_port = document.getElementById("ws_port").value;
+  port = document.getElementById("port").value;
+  command = document.getElementById("command").value;
+  param1 = document.getElementById("param1").value;
+  param2 = document.getElementById("param2").value;
+
+  var pyrame = new bindpyrame(ws_host, ws_port);
+  pyrame.sendcmd(writeDown, port, command, param1, param2);
+
+}
+
+
+</script>
+</head>
+<body>
+Before using the example, the mod_pywebsocket server must be working, either standalone:<br>
+<br>
+<em>sudo python mod_pywebsocket/standalone.py -p 9998 -w pyrame/websocket/</em><br>
+<br>
+or as an Apache module<br>
+<br>
+<br>
+hostname: <input type="text" id="ws_host" value="localhost"><br>
+websocket port: <input type="text" id="ws_port" value="9998"><br>
+port string: <input type="text" id="port" value="TEST_PORT"><br>
+command: <input type="text" id="command" value="test_test"><br>
+param1: <input type="text" id="param1" value="arg1"><br>
+param2: <input type="text" id="param2" value="arg2"><br>
+<br>
+<input type="button" value="Send" onclick="javascript: SendForm()"><br>
+<br>
+Result:<br>
+retcode: <span id="retcode"></span><br>
+res: <span id="res"></span>
+</body>
+</html>
